@@ -72,7 +72,6 @@ nav {
 
   &.active {
     height: 300px;
-    border: 2px solid $primary;
   }
  
   .navItems {
