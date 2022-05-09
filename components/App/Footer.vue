@@ -16,7 +16,7 @@ footer {
   bottom: 0;
   width: 100%;
   font-weight: 400;
-  box-shadow: 2px -2px 2px -2px;
+  box-shadow: 0px -2px 2px -2px;
 
   display: flex;
   flex-direction: row;
