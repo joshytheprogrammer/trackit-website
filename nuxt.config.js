@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'trackit',
+    title: 'Welcome to Track I.T.',
     htmlAttrs: {
       lang: 'en',
     },
@@ -18,7 +18,9 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    '@/assets/fonts.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -27,7 +29,10 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: [
+    '@nuxtjs/style-resources',
+    // '@nuxtjs/dotenv',
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -43,4 +48,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  styleResources: {
+    // your settings here
+    sass: [],
+    scss: ['@/assets/scss/*.scss'],
+    less: [],
+    stylus: [],
+    hoistUseStatements: true  // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
+  },
 }

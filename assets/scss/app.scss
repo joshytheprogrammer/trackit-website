@@ -1,0 +1,19 @@
+// colors
+$primary: #FF6B00;
+$dark: rgb(19, 18, 18);
+$grey: #e7e7e7;
+$light: rgb(254, 254, 254);
+// defaults
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Georgia;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    background: $light;
+    overflow-x: hidden;  
+}
