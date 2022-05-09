@@ -81,7 +81,8 @@ nav {
     justify-content: space-between;
     
     .logo {
-
+      width: 64px;
+      
       img {
         width: 100%;
         height: 48px;
