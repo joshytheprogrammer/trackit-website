@@ -2,18 +2,20 @@
   <div class="quote-form">
     <h1>GET QUOTATION</h1>
     <p>Fill the form below. The quotation will be sent by mail or sms.</p>
-    <form>
+    <form @submit.prevent="validateForm">
       <div class="form-group">
         <label>BUSINESS EMAIL *</label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" v-model="data.email" required>
+        <p class="error" v-if="error.email">{{error.email}}</p>
       </div>
       <div class="form-group">
         <label>BUSINESS TELEPHONE *</label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" v-model="data.phone" required>
+        <p class="error" v-if="error.phone">{{error.phone}}</p>
       </div>
       <div class="form-group">
         <label>WHAT AREA ARE YOU MOST INTERESTED IN? *</label>
-        <select class="form-control">
+        <select class="form-control" required>
           <option value="" disabled selected hidden>How can we help you?</option>
           <option value="">Interactive Smart Board</option>
           <option value="">Microsoft Certified Educator</option>
@@ -24,11 +26,13 @@
       </div>
       <div class="form-group">
         <label>TELL US MORE *</label>
-        <textarea class="form-control lg"></textarea>
+        <textarea class="form-control lg" required></textarea>
       </div>
-      
-      <div class="form-group">
-        <input class="btn" type="button" value="Submit">
+      <recaptcha />
+      <p class="error" v-if="error.recaptcha">{{error.recaptcha}}</p>
+      <div class="form-group QWDED">
+        <input class="btn" type="submit" value="Submit" :disabled="loading">
+        <div class="loader" v-if="loading"></div>
       </div>
     </form>
   </div>
@@ -36,7 +40,71 @@
 
 <script>
 export default {
+  data() {
+    return {
+      loading: false,
+      data: {
+        email: ''
+      },
+      error: {
+        email: null,
+        phone: null,
+        recaptcha: null
+      }
+    }
+  },
+  methods: {
+    async submit() {
+     this.loading = false
+     console.log('success')
+    },
+    async recaptchaTest() {
+      try {
+        const token = await this.$recaptcha.getResponse()
+        console.log('ReCaptcha token:', token)
 
+        // send token to server alongside your form data
+
+        // at the end you need to reset recaptcha
+        await this.$recaptcha.reset()
+      } catch (error) {
+        console.log('Error: '+ error)
+      }
+      return false
+    },
+    validateForm() {
+      this.loading = true
+      let emailPattern = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/;
+
+      let telPattern = /^^(?:(?:(?:\+?234(?:\h1)?|01)\h*)?(?:\(\d{3}\)|\d{3})|\d{4})(?:\W*\d{3})?\W*\d{4}$/;
+
+      // Test email
+      if(!this.data.email.match(emailPattern)){
+        this.error.email="Email is improperly formatted"
+      }else{
+        this.error.email = null
+      }
+
+      if(!this.data.phone.match(telPattern)){
+        this.error.phone="The Phone Number is improperly formatted"
+      }else{
+        this.error.phone = null
+      }
+
+      // Check if no errors exist
+
+      // if(this.error.email.length === 0 || this.error.phone.length === 0){
+      //   this.submit()
+        
+      //   return
+      // }else {
+      //   this.loading = false
+      //   return
+      // }
+
+      this.loading = false
+    }
+  }
 }
 </script>
 
@@ -54,6 +122,7 @@ export default {
     font-size: 16px;
     padding: 1rem 0;
   }
+
 
   form {
     .form-group {
@@ -91,24 +160,66 @@ export default {
         }
       }
 
-      .btn {
-        background: $dark;
+      p.error {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        padding: 0.2rem;
+        margin: 0.2rem 0;
+        background: $red;
         color: $light;
-        border: none;
-        font-size: 16px;
-        font-weight: 400;
-        border-radius: 4px;
-        height: fit-content;
         width: fit-content;
-        padding: 8px 12px;
-        cursor: pointer;
-        transition: box-shadow .2s ease-in-out, padding .2s linear;
+        border-radius: 4px;
+        transition: .2s ease-in-out;
+      }
 
-        &:hover {
-          box-shadow: 0px 8px 8px $primary;
-          padding: 12px 16px;
+      &.QWDED {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+
+        .btn {
+          background: $dark;
+          color: $light;
+          border: none;
+          font-size: 16px;
+          font-weight: 400;
+          border-radius: 4px;
+          height: fit-content;
+          width: fit-content;
+          padding: 8px 12px;
+          margin: 1rem 0;
+          cursor: pointer;
+          transition: box-shadow .2s ease-in-out, padding .2s linear;
+
+          &:hover {
+            box-shadow: 0px 8px 8px $primary;
+            padding: 9px 16px;
+          }
+
+          &:disabled {
+            cursor: not-allowed;
+            opacity: .6;
+          }
+        }
+
+        .loader {
+          border: 5px solid $light; /* Light grey */
+          border-top: 5px solid $dark; /* Blue */
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          animation: spin .9s linear infinite;
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
         }
       }
+
+      
     }
   }
 }

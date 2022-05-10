@@ -61,7 +61,7 @@ export default {
 
   recaptcha: {
     /* reCAPTCHA options */
-    size: 'invisible',
+    size: 'normal',
     hideBadge: false,
     version: 2,
     siteKey: process.env.RECAPTCHA_SITE_KEY,
