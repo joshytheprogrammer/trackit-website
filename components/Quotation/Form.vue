@@ -26,6 +26,7 @@
         <label>TELL US MORE *</label>
         <textarea class="form-control lg"></textarea>
       </div>
+      
       <div class="form-group">
         <input class="btn" type="button" value="Submit">
       </div>
