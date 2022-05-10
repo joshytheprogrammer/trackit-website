@@ -21,8 +21,7 @@ footer {
   padding: 8px 0 0 0;
   text-align: center;
 
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
-  
 }
 </style>
