@@ -4,7 +4,7 @@
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/services">Services</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
-      <NuxtLink to="/contact">Contact</NuxtLink>
+      <NuxtLink to="/contact-us">Contact</NuxtLink>
       <button @click="$router.push('/quotation')">Get a Quote</button>
     </div>
   </div>
@@ -47,11 +47,6 @@ export default {
 
       &:hover {
         color: $primary;
-      }
-
-      &.nuxt-link-active {
-        font-weight: 700;
-        color: $dark;
       }
 
       &.nuxt-link-exact-active {
