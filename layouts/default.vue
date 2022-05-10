@@ -1,7 +1,8 @@
 <template>
   <div class="app">
       <Navigation />
-      <section style="min-height: 100vh;">
+      <section >
+        <!-- style="min-height: 100vh;" -->
         <Nuxt />
       </section>
       <Footer />
