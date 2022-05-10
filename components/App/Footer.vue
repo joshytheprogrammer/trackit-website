@@ -14,9 +14,10 @@ export default {
 footer {
   left: 0;
   bottom: 0;
-  height: 50px;
+
   width: 100%;
   box-shadow: 0px -2px 2px -2px;
+  margin-top: auto;
 
   padding: 8px 0 0 0;
   text-align: center;

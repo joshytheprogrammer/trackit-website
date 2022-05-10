@@ -2,7 +2,6 @@
   <div class="app">
       <Navigation />
       <section >
-        <!-- style="min-height: 100vh;" -->
         <Nuxt />
       </section>
       <Footer />
@@ -21,5 +20,7 @@ export default {
 </script>
 
 <style>
-
+section {
+  min-height: 100vh;
+}
 </style>
