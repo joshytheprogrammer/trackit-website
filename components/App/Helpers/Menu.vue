@@ -65,7 +65,7 @@ export default {
       width: fit-content;
       cursor: pointer;
       &:hover {
-        filter: brightness(110%);
+        box-shadow: 0px 8px 8px $grey;
       }
     }
 

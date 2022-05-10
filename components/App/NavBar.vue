@@ -2,7 +2,7 @@
   <nav :class="{ active: isOpen }">
     <div class="navItems">
       <div class="logo">
-        <img src="../../assets/img/trackit_logo.jpeg" alt="Track I.T. Logo">
+        <Nuxt-Link to="/"><img src="../../assets/img/trackit_logo.jpeg" alt="Track I.T. Logo"></Nuxt-Link>
       </div>
       <!-- If the screen is small show MenuIcon -->
       <div class="menuIcon" v-if="mobile">
