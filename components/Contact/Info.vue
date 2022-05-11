@@ -52,6 +52,7 @@ export default {
   align-items: center;
 
   &.wide {
+    justify-content: flex-start;
     padding: 1rem;
   }
 
