@@ -46,18 +46,19 @@ export default {
 
 <style lang="scss" scoped>
 .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &.wide {
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
     padding: 1rem;
   }
 
   .card {
     background: $light;
     border: 1px solid $dark;
-    width: 100%;
+    width: 70%;
     height: fit-content;
     padding: 3rem 1rem;
     margin: 1rem 0;
