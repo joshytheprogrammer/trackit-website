@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-form">
+  <div class="contact-form" :class="{'wide' : !mobile}">
     <h1>Contact Form</h1>
     <form>
       <div class="form-group">
@@ -23,15 +23,19 @@
 </template>
 
 <script>
+import {mapGetters} from "vuex"
 export default {
-
+  computed: {
+    ...mapGetters({
+      mobile: 'mobile/mobile',
+    })
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .contact-form {
-  padding: 2rem;
-
+  padding: 2rem 1rem;
   h1 {
     font-weight: 500;
     font-size: 36px;
@@ -100,7 +104,7 @@ export default {
         align-items: center;
 
         .btn {
-          background: $dark;
+          background: $primary;
           color: $light;
           border: none;
           font-size: 16px;
@@ -114,7 +118,7 @@ export default {
           transition: box-shadow .2s ease-in-out, padding .2s linear;
 
           &:hover {
-            box-shadow: 0px 8px 8px $primary;
+            box-shadow: 0px 8px 8px $dark;
             padding: 9px 16px;
           }
 

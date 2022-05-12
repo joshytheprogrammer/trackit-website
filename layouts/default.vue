@@ -1,10 +1,8 @@
 <template>
   <div class="app">
-      <Navigation />
-      <section >
-        <Nuxt />
-      </section>
-      <Footer />
+    <Navigation />
+    <Nuxt />
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -19,8 +17,9 @@ export default {
 }
 </script>
 
-<style>
-section {
-  min-height: 100vh;
+<style lang="scss" scoped>
+.app {
+  display: flex;
+  flex-direction: column;
 }
 </style>

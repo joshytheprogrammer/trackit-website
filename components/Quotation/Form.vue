@@ -180,7 +180,7 @@ export default {
         align-items: center;
 
         .btn {
-          background: $dark;
+          background: $primary;
           color: $light;
           border: none;
           font-size: 16px;
@@ -194,7 +194,7 @@ export default {
           transition: box-shadow .2s ease-in-out, padding .2s linear;
 
           &:hover {
-            box-shadow: 0px 8px 8px $primary;
+            box-shadow: 0px 8px 8px $dark;
             padding: 9px 16px;
           }
 

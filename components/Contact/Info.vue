@@ -59,7 +59,7 @@ export default {
   .card {
     background: $light;
     border: 1px solid $dark;
-    width: 70%;
+    width: 100%;
     height: fit-content;
     padding: 3rem 1rem;
     margin: 1rem 0;
@@ -67,7 +67,6 @@ export default {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25);
 
     &.wide {
-      width: 225px;
       margin: 1rem 0;
     }
 

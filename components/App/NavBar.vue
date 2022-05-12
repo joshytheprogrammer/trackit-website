@@ -69,6 +69,7 @@ nav {
   padding: 0 8px;
   transition: height 2s;
   box-shadow: 0 2px 2px -2px;
+  background: $light;
 
   &.active {
     height: 300px;
