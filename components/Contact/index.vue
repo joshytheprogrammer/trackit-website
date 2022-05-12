@@ -24,7 +24,8 @@ export default {
 
 <style lang="scss" scoped>
 .contact {
-  display: block;
+    display: flex;
+    flex-direction: column-reverse;
 
   &.wide {
     display: grid;
