@@ -13,15 +13,16 @@
         <input type="text" class="form-control" v-model="data.phone" required>
         <p class="error" v-if="error.phone">{{error.phone}}</p>
       </div>
+      {{params}}
       <div class="form-group">
         <label>WHAT AREA ARE YOU MOST INTERESTED IN? *</label>
         <select class="form-control" required>
-          <option value="" disabled selected hidden>How can we help you?</option>
-          <option value="">Interactive Smart Board</option>
-          <option value="">Microsoft Certified Educator</option>
-          <option value="">ICT Lab</option>
-          <option value="">Microsoft Imagine Academy</option>
-          <option value="">Student Training</option>
+          <option value="" disabled hidden>How can we help you?</option>
+          <option value="isb" >Interactive Smart Board</option>
+          <option value="mce">Microsoft Certified Educator</option>
+          <option value="ict-l">ICT Lab</option>
+          <option value="mia">Microsoft Imagine Academy</option>
+          <option value="s-t">Student Training</option>
         </select>
       </div>
       <div class="form-group">
@@ -43,6 +44,7 @@ export default {
   data() {
     return {
       loading: false,
+      params: this.$route.params.interest,
       data: {
         email: ''
       },

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-
+    <hero-component />
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import HeroComponent from "./Jumbotron.vue"
 export default {
   components: {
-    
+    HeroComponent
   }
 }
 </script>
