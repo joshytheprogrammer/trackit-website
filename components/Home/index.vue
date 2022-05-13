@@ -2,7 +2,7 @@
   <div class="home">
     <hero-component />
     <board-component />
-    <mce />
+    <MCE />
   </div>
 </template>
 
