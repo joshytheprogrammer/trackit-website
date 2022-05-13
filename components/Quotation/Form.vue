@@ -13,7 +13,6 @@
         <input type="text" class="form-control" v-model="data.phone" required>
         <p class="error" v-if="error.phone">{{error.phone}}</p>
       </div>
-      {{params}}
       <div class="form-group">
         <label>WHAT AREA ARE YOU MOST INTERESTED IN? *</label>
         <select class="form-control" required>
