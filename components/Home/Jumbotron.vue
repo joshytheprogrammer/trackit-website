@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbotron">
+  <div class="jumbotron" :class="{'wide' : !mobile}">
     <h1>Get a Quote</h1>
     <p>We offer multiple solutions for Schools, Teachers, Students, Individuals, and much more. These solutions include but is not limited to, 
       the Installation of Interactive Smart Board, the Installation of ICT labs in schools and businesses, Online and Offline Trainings on Technology Related Topics, Issuing of Several Microsoft Certifications and much more. If you are interested in any of these, click on the button below
@@ -9,8 +9,13 @@
 </template>
 
 <script>
+import {mapGetters} from "vuex"
 export default {
-
+  computed: {
+    ...mapGetters({
+      mobile: 'mobile/mobile',
+    })
+  },
 }
 </script>
 
@@ -18,7 +23,11 @@ export default {
 .jumbotron {
   padding: 1rem;
   max-height: 800px;
-  max-width: 50%;
+  max-width: 100%;
+
+  &.wide {
+    max-width: 50%;
+  }
 
   display: flex;
   flex-direction: column;
