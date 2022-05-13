@@ -41,7 +41,7 @@ export default {
       isOpen: false,
     }
   },
-  beforeMount() {
+  mounted() {
     this.isMobile()
 
     // Watch for window size change
