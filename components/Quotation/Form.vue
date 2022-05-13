@@ -17,12 +17,12 @@
       <div class="form-group">
         <label>WHAT AREA ARE YOU MOST INTERESTED IN? *</label>
         <select class="form-control" required>
-          <option value="" disabled hidden>How can we help you?</option>
-          <option value="isb" >Interactive Smart Board</option>
-          <option value="mce">Microsoft Certified Educator</option>
-          <option value="ict-l">ICT Lab</option>
-          <option value="mia">Microsoft Imagine Academy</option>
-          <option value="s-t">Student Training</option>
+          <option value="" disabled hidden selected>How can we help you?</option>
+          <option value="isb" :selected="params === 'isb'">Interactive Smart Board</option>
+          <option value="mce" :selected="params === 'mce'">Microsoft Certified Educator</option>
+          <option value="ict-l" :selected="params === 'ict-l'">ICT Lab</option>
+          <option value="mia" :selected="params === 'mia'">Microsoft Imagine Academy</option>
+          <option value="s-t" :selected="params === 's-t'">Student Training</option>
         </select>
       </div>
       <div class="form-group">
@@ -44,7 +44,7 @@ export default {
   data() {
     return {
       loading: false,
-      params: this.$route.params.interest,
+      params: this.$route.query.interest,
       data: {
         email: ''
       },
