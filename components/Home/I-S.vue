@@ -5,7 +5,7 @@
     </div>
     <div class="_details">
       <h2>The Interactive Smartboard</h2>
-      <p>Track I.T installs Smart Boards in schools and businesses. We use the most efficient and cost effective methods of Installation to ensure that the boards last as long as possible while also serving its purpose. We have installed over a hundred Smartboard in schools and offices all around Nigeria</p>
+      <p>Track I.T installs Smart Boards in schools and businesses. We use the most efficient and cost effective methods of Installation to ensure that the boards last as long as possible while also serving its purpose. We have installed over a hundred Smartboard in schools and offices all around Nigeria.</p>
       <button @click="$router.push('/quotation?interest=isb')">Learn More</button>
     </div>
   </div>
@@ -29,7 +29,6 @@ export default {
 
   ._image {
     max-width: 100%;
-    max-height: 450px;
 
     img {
       width: 100%;
@@ -46,7 +45,7 @@ export default {
     justify-content: center;
 
     h2 {
-      font-size: 24px;
+      font-size: 36px;
       font-weight: 500;
       padding-bottom: 1rem;
     }
