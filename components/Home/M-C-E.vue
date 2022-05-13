@@ -1,13 +1,14 @@
 <template>
   <div class="mce" :class="{'wide' : !mobile}">
+    <div class="_image">
+      <img src="../../assets/img/m-c-e.svg" alt="Microsoft Certified Educator">
+    </div>
     <div class="_details">
       <h2>Microsoft Certified Educator</h2>
       <p>The Microsoft Certified Educator (MCE) certification validates that educators have the global educator technology literacy competencies needed to provide a rich, custom learning experience for students. MCE certification is ideal for educators-in-training, faculty of teacher training colleges, and in-service educators. Tract I.T. prepares you to obtain the certificate as well as delivers the certificate when you pass.</p>
       <button @click="$router.push('/quotation?interest=mce')">Learn More</button>
     </div>
-    <div class="_image">
-      <img src="../../assets/img/m-c-e.svg" alt="Microsoft Certified Educator">
-    </div>
+    
   </div>
 </template>
 
@@ -24,9 +25,6 @@ export default {
 
 <style lang="scss" scoped>
 .mce {
-  display: flex;
-  flex-direction: column-reverse;
-
   height: fit-content;
   margin: 0.5rem 0;
   box-shadow: 0 2px 2px -2px;
