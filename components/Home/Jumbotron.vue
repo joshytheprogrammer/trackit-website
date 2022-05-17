@@ -4,7 +4,7 @@
     <p>We offer multiple solutions for Schools, Teachers, Students, Individuals, and much more. These solutions include but is not limited to, 
       the Installation of Interactive Smart Board, the Installation of ICT labs in schools and businesses, Online and Offline Trainings on Technology Related Topics, Issuing of Several Microsoft Certifications and much more. If you are interested in any of these, click on the button below
     </p>
-    <button @click="$router.push('/quotation')">Get Quote for Free</button>
+    <button @click="$router.push('/quotation')">Get Quote</button>
   </div>
 </template>
 

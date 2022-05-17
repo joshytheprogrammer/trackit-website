@@ -16,7 +16,6 @@
       </div>
       <div class="form-group QWDED">
         <input class="btn" type="submit" value="Submit" :disabled="loading">
-        <div class="loader" v-if="loading"></div>
       </div>
     </form>
   </div>

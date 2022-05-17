@@ -6,7 +6,7 @@
     <div class="_details">
       <h2>ICT Lab Installation</h2>
       <p>We install medium to large scale computer components in schools, workplaces, hospitals, etc. The methods we use to install computers and its components maximize its productivity and stability. Our computer labs function effectively and cost efficiently.</p>
-      <button @click="$router.push('/quotation?interest=ict-l')">Get this</button>
+      <button @click="$router.push('/quotation?interest=ict-l')">Order Now</button>
     </div>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
 .ict-lab  {
   height: fit-content;
-  margin: 0;
+  margin: 0.5rem 0;
   box-shadow: 0 2px 2px -2px;
 
   ._image {

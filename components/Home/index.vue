@@ -4,6 +4,8 @@
     <board-component />
     <MCE />
     <Lab />
+    <MIA />
+    <FAQ /> 
   </div>
 </template>
 
@@ -12,12 +14,17 @@ import HeroComponent from "./Jumbotron.vue"
 import BoardComponent from "./I-S.vue"
 import MCE from "./M-C-E.vue"
 import Lab from "./ict-lab.vue"
+import MIA from "./m-i-a.vue"
+import FAQ from "./faq.vue"
+
 export default {
   components: {
     HeroComponent,
     BoardComponent,
     MCE,
-    Lab
+    Lab,
+    MIA,
+    FAQ
   }
 }
 </script>
