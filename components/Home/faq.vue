@@ -31,13 +31,28 @@ export default {
       data: [
         {
           id: 0,
-          question: "What is the MCE program?",
-          answer: "Providing the technology skills and certifications students need to succeed. "
+          question: "What are the services you offer?",
+          answer: "We offer all the services described above, you can also visit the quotation page to find out more about your specific page, or contact us via the contact page."
         },
         {
           id: 1,
-          question: "What are the services we offer?",
-          answer: "Interactive Smart Board, Learning Technology Installations, Microsoft Certified Educator, ICT Lab Setting"
+          question: "Does the MCE cost money?",
+          answer: "Yes it does, you can click the 'Get A Quote' button above to receive a price quote."
+        },
+        {
+          id: 2,
+          question: "What happens after the completion of the program -MCE?",
+          answer: "You will be granted a certificate issued by our partners, Microsoft."
+        },
+        {
+          id: 3,
+          question: "How much does it cost to install the Interactive Smart Board and how long would it take to install?",
+          answer: "The board can cost anywhere from 900k - 5M and take anywhere from a week to 6 months to Install. 'Get a Quote' to find out more about your specific use case."
+        },
+        {
+          id: 4,
+          question: "What knowledge/skills do I need to have to undergo the MCE program and other programs you offer?",
+          answer: "No knowledge is required, but a basic knowledge of computers is recommended. We provide computers as well as internet access all through your time with us.",
         }
       ],
       showingAns: false,
@@ -89,6 +104,8 @@ export default {
         cursor: pointer;
         padding: 0.1rem 0.5rem;
         border-radius: 50%;
+        width: fit-content;
+        height: fit-content;
 
         &:hover {
           background: $primary;
