@@ -6,7 +6,7 @@
     <div class="_details">
       <h2>Microsoft Certified Educator</h2>
       <p>The Microsoft Certified Educator (MCE) certification validates that educators have the global educator technology literacy competencies needed to provide a rich, custom learning experience for students. MCE certification is ideal for educators-in-training, faculty of teacher training colleges, and in-service educators. Tract I.T. prepares you to obtain the certificate as well as delivers the certificate when you pass.</p>
-      <button @click="$router.push('/quotation?interest=mce')">Learn More</button>
+      <button @click="$router.push('/quotation?interest=mce')">Register Now</button>
     </div>
     
   </div>

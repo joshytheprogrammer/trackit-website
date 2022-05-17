@@ -6,7 +6,7 @@
     <div class="_details">
       <h2>The Interactive Smartboard</h2>
       <p>Track I.T installs Smart Boards in schools and businesses. We use the most efficient and cost effective methods of Installation to ensure that the boards last as long as possible while also serving its purpose. We have installed over a hundred Smartboard in schools and offices all around Nigeria.</p>
-      <button @click="$router.push('/quotation?interest=isb')">Learn More</button>
+      <button @click="$router.push('/quotation?interest=isb')">Order Now</button>
     </div>
   </div>
 </template>
