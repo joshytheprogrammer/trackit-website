@@ -1,14 +1,13 @@
 <template>
-  <div class="mce" :class="{'wide' : !mobile}">
+  <div class="ict-lab" :class="{'wide' : !mobile}">
     <div class="_image">
-      <img src="../../assets/img/m-c-e.svg" alt="Microsoft Certified Educator">
+      <img src="../../assets/img/ict-lab.jpg" alt="ICT Lab">
     </div>
     <div class="_details">
-      <h2>Microsoft Certified Educator</h2>
-      <p>The Microsoft Certified Educator (MCE) certification validates that educators have the global educator technology literacy competencies needed to provide a rich, custom learning experience for students. MCE certification is ideal for educators-in-training, faculty of teacher training colleges, and in-service educators. Tract I.T. prepares you to obtain the certificate as well as delivers the certificate when you pass.</p>
-      <button @click="$router.push('/quotation?interest=mce')">Register Now</button>
+      <h2>ICT Lab Installation</h2>
+      <p>We install medium to large scale computer components in schools, workplaces, hospitals, etc. The methods we use to install computers and its components maximize its productivity and stability. Our computer labs function effectively and cost efficiently.</p>
+      <button @click="$router.push('/quotation?interest=ict-l')">Get this</button>
     </div>
-    
   </div>
 </template>
 
@@ -24,19 +23,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mce {
+.ict-lab  {
   height: fit-content;
-  margin: 0.5rem 0 0 0;
+  margin: 0;
   box-shadow: 0 2px 2px -2px;
 
   ._image {
     max-width: 100%;
-    display: flex;
-    justify-content: center;
 
     img {
-      width: 70%;
-      height: 90%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
