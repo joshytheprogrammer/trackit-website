@@ -5,7 +5,7 @@
       <p>Providing the technology skills and certifications students need to succeed. Microsoft Imagine Academy gives students and educators the curricula and certifications they need to succeed in a technology-driven economy. Prepare students for college and careers with on-demand, industry-recognized courses and certifications in IT, computer science, productivity, and more. TRACK I.T. is a certified partner of Microsoft. When you finish a course with us, you get a Microsoft Certified Certificate. Come, let’s learn.</p>
       <button @click="$router.push('/quotation?interest=mia')">Subscribe</button>
     </div>
-    <div class="_image">
+    <div class="_image" :class="{'wide' : !mobile}">
       <img src="../../assets/img/m-i-m.png" alt="ICT Lab">
     </div>
   </div>
@@ -26,9 +26,17 @@ export default {
   height: fit-content;
   margin: 0.5rem 0;
   box-shadow: 0 2px 2px -2px;
+  display: flex;
+  flex-direction: column-reverse;
 
   ._image {
     max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    &.wide {
+      justify-content: center;
+    }
 
     img {
       width: 100%;
