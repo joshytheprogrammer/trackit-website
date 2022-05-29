@@ -15,7 +15,7 @@
         <textarea class="form-control lg" required></textarea>
       </div>
       <div class="form-group QWDED">
-        <input class="btn" type="submit" value="Submit" :disabled="loading">
+        <input class="btn" type="submit" value="Submit">
       </div>
     </form>
   </div>
@@ -62,6 +62,7 @@ export default {
       .form-control {
         height: 48px;
         background: $grey;
+        color: $dark;
         border: none;
         outline: 1px solid $dark;
         border-radius: 4px;
