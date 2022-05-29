@@ -28,8 +28,6 @@
         <label>TELL US MORE *</label>
         <textarea class="form-control lg" required></textarea>
       </div>
-      <recaptcha />
-      <p class="error" v-if="error.recaptcha">{{error.recaptcha}}</p>
       <div class="form-group QWDED">
         <input class="btn" type="submit" value="Submit" :disabled="loading">
         <div class="loader" v-if="loading"></div>
@@ -50,7 +48,6 @@ export default {
       error: {
         email: null,
         phone: null,
-        recaptcha: null
       }
     }
   },
@@ -58,20 +55,6 @@ export default {
     async submit() {
      this.loading = false
      console.log('success')
-    },
-    async recaptchaTest() {
-      try {
-        const token = await this.$recaptcha.getResponse()
-        console.log('ReCaptcha token:', token)
-
-        // send token to server alongside your form data
-
-        // at the end you need to reset recaptcha
-        await this.$recaptcha.reset()
-      } catch (error) {
-        console.log('Error: '+ error)
-      }
-      return false
     },
     validateForm() {
       this.loading = true
@@ -112,6 +95,7 @@ export default {
 <style lang="scss" scoped>
 .quote-form {
   padding: 1rem;
+  
 
   h1 {
     font-weight: 500;
@@ -140,6 +124,7 @@ export default {
       .form-control {
         height: 48px;
         background: $grey;
+        color: $dark;
         border: none;
         outline: 1px solid $dark;
         border-radius: 4px;

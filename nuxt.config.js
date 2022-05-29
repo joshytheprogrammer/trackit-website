@@ -32,7 +32,6 @@ export default {
   buildModules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/dotenv',
-    '@nuxtjs/recaptcha',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -58,12 +57,4 @@ export default {
     stylus: [],
     hoistUseStatements: true  // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
   },
-
-  recaptcha: {
-    /* reCAPTCHA options */
-    size: 'normal',
-    hideBadge: false,
-    version: 2,
-    siteKey: process.env.RECAPTCHA_SITE_KEY,
-  }
 }
