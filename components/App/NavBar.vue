@@ -66,7 +66,7 @@ nav {
   height: 84px;
   width: 100%;
   overflow-y: hidden;
-  padding: 12px 8px;
+  padding: 14px 8px;
   transition: height 2s;
   box-shadow: 0 2px 2px -2px;
   background: $light;
