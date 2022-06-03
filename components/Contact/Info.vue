@@ -3,11 +3,11 @@
     <div class="card" :class="{'wide' : !mobile}">
       <div class="property">
         <span class="key">Address1:</span>
-        <span class="value">79, Sanya Street, Aguda, Surulere, Lagos</span>
+        <span class="value">40, Oyekan Street Off Ogunlana Drive Surulere, Lagos.</span>
       </div>
       <div class="property">
         <span class="key">Address2:</span>
-        <span class="value">84, Adetola Street, Aguda, Surulere, Lagos</span>
+        <span class="value">Suite 11b, DBM plaza Wuse Zone1, Abuja.</span>
       </div>
     </div>
     <div class="card" :class="{'wide' : !mobile}">
@@ -27,7 +27,7 @@
       </div>
       <div class="property">
         <span class="key">Email us at:</span>
-        <span class="value">info@trackit.com.ng</span>
+        <span class="value"><a href="mailto:info@trackit.com.ng">info@trackit.com.ng</a></span>
       </div>
     </div>
   </div>
@@ -78,7 +78,11 @@ export default {
       }
 
       .value {
-        font-weight: 300
+        font-weight: 300;
+
+        a {
+          color: $dark;
+        }
       }
     }
   }

@@ -2,8 +2,8 @@
   <footer>
     <div class="address">
       <h3>Address</h3>
-      <p>79, Sanya Street, Aguda, Surulere, Lagos</p>
-      <p>84, Adetola Street, Aguda, Surulere, Lagos</p>
+      <p>40, Oyekan Street Off Ogunlana Drive Surulere, Lagos.</p>
+      <p>Suite 11b, DBM plaza Wuse Zone1, Abuja.</p>
     </div>
     <div class="contacts">
       <h3>Contacts</h3>
