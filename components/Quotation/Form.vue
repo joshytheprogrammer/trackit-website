@@ -96,7 +96,6 @@ export default {
 .quote-form {
   padding: 1rem;
   
-
   h1 {
     font-weight: 500;
     font-size: 36px;
@@ -107,7 +106,6 @@ export default {
     font-size: 16px;
     padding: 1rem 0;
   }
-
 
   form {
     .form-group {
@@ -204,8 +202,6 @@ export default {
           100% { transform: rotate(360deg); }
         }
       }
-
-      
     }
   }
 }
