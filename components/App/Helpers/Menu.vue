@@ -46,11 +46,13 @@ export default {
 
       &:hover {
         text-decoration: underline;
+        text-decoration-color: $primary;
         text-underline-offset: 7px; 
       }
 
       &.nuxt-link-exact-active {
         text-decoration: underline;
+        text-decoration-color: $primary;
         text-underline-offset: 7px; 
         color: $dark;
       }
@@ -62,7 +64,8 @@ export default {
       padding: 8px;
       color: $light;
       border-radius: 4px;
-      font-weight: 600;
+      font-size: inherit;
+      font-weight: 400;
       width: fit-content;
       cursor: pointer;
 
