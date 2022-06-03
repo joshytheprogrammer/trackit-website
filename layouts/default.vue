@@ -2,7 +2,7 @@
   <div class="app">
     <Navigation />
     <Nuxt />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
