@@ -25,7 +25,6 @@ export default {
 <style lang="scss" scoped>
 .board-component {
   margin: 0.5rem 0;
-  box-shadow: 0 2px 2px -2px;
 
   ._image {
     max-width: 100%;
