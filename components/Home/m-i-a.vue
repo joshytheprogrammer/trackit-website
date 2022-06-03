@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 .mia {
   height: fit-content;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   box-shadow: 0 2px 2px -2px;
   display: flex;
   flex-direction: column-reverse;
