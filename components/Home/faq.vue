@@ -116,9 +116,11 @@ export default {
 
     ._ans {
       margin: 0.5rem 0;
+
       span {
         font-size: 14px;
       }
+
     }
 
     
