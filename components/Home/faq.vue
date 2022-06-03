@@ -1,5 +1,5 @@
 <template>
-  <div class="faq" :class="{'wide' : !mobile}">
+  <div class="faq" :class="{'wide' : !mobile}" id="faq">
     <div class="_header">
       <h1>Frequently Asked Questions</h1>
     </div>

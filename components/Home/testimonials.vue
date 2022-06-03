@@ -1,6 +1,6 @@
 <template>
-  <div class="testimonials">
-    
+  <div class="testimonials" id="testimonials">
+
   </div>
 </template>
 
