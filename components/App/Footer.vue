@@ -28,18 +28,13 @@ export default {
 
 <style lang="scss" scoped>
 footer {
+  padding: 1rem;
   width: 100%;
   max-height: fit-content;
   
   margin-top: 2rem;
 
-  padding: 8px 0 0 0;
   text-align: center;
-
-  font-size: 12px;
-  font-weight: 400;
-
-  position: relative;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -49,6 +44,7 @@ footer {
   }
 
   @media screen and (max-width: 728px) {
+    text-align: left;
     grid-template-columns: repeat(1,1fr);
   }
 
