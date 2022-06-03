@@ -2,12 +2,14 @@
   <footer>
     <div class="address">
       <h3>Address</h3>
-      <p>1 Joseph Street, Lagos Island 102273</p>
+      <p>79, Sanya Street, Aguda, Surulere, Lagos</p>
+      <p>84, Adetola Street, Aguda, Surulere, Lagos</p>
     </div>
     <div class="contacts">
       <h3>Contacts</h3>
-      <p>08088985577</p>
-      <p><a href="mailto:kingsleyn24@yahoo.com">kingsleyn24@yahoo.com</a></p>
+      <p>+234 802 317 8729</p>
+      <p>+234 901 563 0453</p>
+      <p><a href="mailto:info@trackit.com.ng">info@trackit.com.ng</a></p>
     </div>
     <div class="attribution">
       <h3>Track IT Nigeria Limited</h3>
@@ -63,7 +65,7 @@ footer {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding: 5px 0;
   }
