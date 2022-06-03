@@ -1,7 +1,7 @@
 <template>
   <div class="faq" :class="{'wide' : !mobile}" id="faq">
     <div class="_header">
-      <h1>Frequently Asked Questions</h1>
+      <h2>Frequently Asked Questions</h2>
     </div>
     <div class="_card" :class="{'wide' : !mobile}" v-for="q in data" :key="q.id">
       <div class="_question">
@@ -77,6 +77,7 @@ export default {
 
   ._header {
     margin: 0.5rem 0;
+    font-size: 1.5rem;
   }
 
   ._card {
@@ -120,10 +121,7 @@ export default {
       span {
         font-size: 14px;
       }
-
     }
-
-    
   }
 }
 </style>
