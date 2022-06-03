@@ -2,7 +2,7 @@
   <div class="menuItems" :class="{'wide' : !mobile}">
     <div class="links" :class="{'wide' : !mobile}">
       <NuxtLink to="/">Home</NuxtLink>
-      <!-- <NuxtLink to="/services">Services</NuxtLink> -->
+      <NuxtLink to="/services">Services</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/contact-us">Contact</NuxtLink>
       <button @click="$router.push('/quotation')">Get a Quote</button>
