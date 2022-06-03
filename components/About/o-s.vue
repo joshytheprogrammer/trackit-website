@@ -24,15 +24,25 @@ export default {
 <style lang="scss" scoped>
 .our-story {
   padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column-reverse;
 
   &.wide {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    ._details {
+      width: 40%;
+    }
+    
+    ._image {
+      max-width: 50%;
+    }
   }
 
   ._details {
-    width: 40%;
     line-height: 1.7;
 
     h1 {
@@ -52,7 +62,7 @@ export default {
   }
 
   ._image {
-    max-width: 50%;
+    max-width: 100%;
 
     img {
       width: 100%;

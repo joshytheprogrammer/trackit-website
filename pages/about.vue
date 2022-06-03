@@ -35,9 +35,15 @@ export default {
 .about {
   padding: 1rem;
 
+  &.wide {
+    .old {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
   .old {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
   }
 
   .btn {
