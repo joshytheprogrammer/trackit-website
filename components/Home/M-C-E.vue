@@ -26,7 +26,6 @@ export default {
 .mce {
   height: fit-content;
   margin: 0.5rem 0 0 0;
-  box-shadow: 0 2px 2px -2px;
   display: flex;
   flex-direction: column-reverse;
 
@@ -36,7 +35,6 @@ export default {
     justify-content: flex-start;
 
     &.wide {
-      border: 1px dotted $dark;
       justify-content: center;
     }
 
@@ -86,10 +84,7 @@ export default {
       &:hover {
         box-shadow: 0px 8px 8px $dark;
       }
-    }
-    
+    } 
   }
-
-  
 }
 </style>
