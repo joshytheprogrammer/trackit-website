@@ -34,23 +34,24 @@ export default {
     display: flex;
     flex-direction: column;
     
-    
     a {
       text-decoration: none;
       color: $dark;
       cursor: pointer;
 
-      font-weight: 500;
+      font-weight: 400;
       font-size: 16px;
 
       padding: 9px 0;
 
       &:hover {
-        color: $primary;
+        text-decoration: underline;
+        text-underline-offset: 7px; 
       }
 
       &.nuxt-link-exact-active {
-        font-weight: 700;
+        text-decoration: underline;
+        text-underline-offset: 7px; 
         color: $dark;
       }
     }
@@ -64,6 +65,7 @@ export default {
       font-weight: 600;
       width: fit-content;
       cursor: pointer;
+
       &:hover {
         box-shadow: 0px 8px 8px $grey;
       }
@@ -72,6 +74,7 @@ export default {
     &.wide {
       flex-direction: row;
       align-items: center;
+
       a {
         padding: 0 9px;
       }

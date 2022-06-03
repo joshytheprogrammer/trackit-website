@@ -63,10 +63,10 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-  height: 48px;
+  height: 84px;
   width: 100%;
   overflow-y: hidden;
-  padding: 0 8px;
+  padding: 12px 8px;
   transition: height 2s;
   box-shadow: 0 2px 2px -2px;
   background: $light;
@@ -77,7 +77,6 @@ nav {
  
   .navItems {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     
     .logo {
@@ -93,7 +92,6 @@ nav {
       padding: 12px;
       cursor: pointer;
     }
-
   }
 
   .menu {
