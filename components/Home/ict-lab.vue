@@ -26,7 +26,6 @@ export default {
 .ict-lab  {
   height: fit-content;
   margin: 0.5rem 0;
-  box-shadow: 0 2px 2px -2px;
 
   ._image {
     max-width: 100%;
@@ -79,9 +78,6 @@ export default {
         box-shadow: 0px 8px 8px $dark;
       }
     }
-    
   }
-
-  
 }
 </style>
