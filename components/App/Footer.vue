@@ -31,8 +31,7 @@ footer {
   width: 100%;
   max-height: fit-content;
   
-  box-shadow: 0px -2px 2px -2px;
-  margin-top: 1rem;
+  margin-top: 2rem;
 
   padding: 8px 0 0 0;
   text-align: center;
