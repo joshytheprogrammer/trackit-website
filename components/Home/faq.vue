@@ -94,6 +94,10 @@ export default {
 
     &.wide {
       width: 50%;
+      
+      @media screen and (max-width: 900px) {
+        width: 100%;
+      }
     }
 
     ._question {
