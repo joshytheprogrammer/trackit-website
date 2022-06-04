@@ -15,7 +15,7 @@
           <p>Monday - Friday</p>
           <p>8am - 5pm</p>
           <h4>Contacts</h4>
-          <p>+234 901 563 0453</p>
+          <p><a href="tel:+234 901 563 0453">+234 901 563 0453</a></p>
           <p><a href="mailto:info@trackit.com.ng">info@trackit.com.ng</a></p>
         </div>
       </div>
@@ -30,7 +30,7 @@
           <p>Monday - Friday</p>
           <p>8am - 5pm</p>
           <h4>Contacts</h4>
-          <p>+234 802 317 8729</p>
+          <p><a href="tel:+234 802 317 8729">+234 802 317 8729</a></p>
           <p><a href="mailto:info@trackit.com.ng">info@trackit.com.ng</a></p>
         </div>
       </div>
