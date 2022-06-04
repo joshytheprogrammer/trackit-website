@@ -60,7 +60,13 @@ export default {
 
     p {
       padding: 0.5rem 0;
+
+      a {
+        color: $dark;
+      }
     }
+
+
   }
 }
 </style>
