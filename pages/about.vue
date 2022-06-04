@@ -33,8 +33,6 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-  padding: 1rem;
-
   &.wide {
     .old {
       display: grid;
