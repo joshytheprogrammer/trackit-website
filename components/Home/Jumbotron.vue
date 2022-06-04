@@ -49,6 +49,10 @@ export default {
       color: $light;
       width: 50%;
 
+      @media screen and (max-width: 900px) {
+        width: 100%;
+      }
+
       h1 {
         font-size: 36px;
         font-weight: 400;

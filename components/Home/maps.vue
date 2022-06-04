@@ -33,11 +33,6 @@ export default {
   padding: 1rem;
 
   &.wide {
-    
-    .map {
-      width: 600px;
-    }
-
     .card {
       display: grid;
       grid-template-columns: 1fr 2fr;
