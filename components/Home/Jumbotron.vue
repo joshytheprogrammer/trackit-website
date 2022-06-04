@@ -43,6 +43,11 @@ export default {
     h1 {
       font-weight: 400;
     }
+
+    h1, p {
+      padding: 0.5rem 0;
+    }
+    
     &.wide {
       display: flex;
       flex-direction: column;
@@ -64,9 +69,7 @@ export default {
         line-height: 1.95;
       }
 
-      h1, p {
-        padding: 0.5rem 0;
-      }
+      
     }
   }
 
