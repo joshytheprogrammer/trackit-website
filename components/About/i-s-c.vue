@@ -17,13 +17,19 @@ section {
   padding: 1rem;
   
   h1 {
-    font-size: 24px;
-    font-weight: 400;
+    padding: 0.5rem 0;
+    font-size: 36px;
+    font-weight: 500;
   }
 
   p {
-    font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+    bold {
+      font-weight: 500;
+    }
   }
 }
 </style>
