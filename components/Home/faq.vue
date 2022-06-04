@@ -77,7 +77,11 @@ export default {
 
   ._header {
     margin: 0.5rem 0;
-    font-size: 1.5rem;
+
+    h2 {
+      font-weight: 400;
+      font-size: 36px;
+    }
   }
 
   ._card {
@@ -97,8 +101,8 @@ export default {
       justify-content: space-between;
 
       span {
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 400;
       }
 
       ._sign {

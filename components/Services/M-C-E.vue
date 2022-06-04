@@ -58,7 +58,7 @@ export default {
 
     h2 {
       font-size: 36px;
-      font-weight: 500;
+      font-weight: 400;
       padding-bottom: 1rem;
     }
 

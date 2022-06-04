@@ -40,6 +40,9 @@ export default {
   align-items: center;
 
   .content {
+    h1 {
+      font-weight: 400;
+    }
     &.wide {
       display: flex;
       flex-direction: column;
@@ -48,6 +51,7 @@ export default {
 
       h1 {
         font-size: 36px;
+        font-weight: 400;
         line-height: 1.35;
       }
 
