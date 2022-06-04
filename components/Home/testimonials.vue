@@ -45,12 +45,15 @@ export default {
   &.wide {
     .content {
       display: grid;
+      gap: 12px;
       grid-template-columns: repeat(3, 1fr);
 
-      .card {
-        width: 400px;
-        margin: 1rem 0;
+      @media screen and (max-width: 900px) {
+        grid-template-columns: repeat(2,1fr);
+      }
 
+      .card {
+        margin: 1rem 0;
       }
     }
   }
@@ -81,4 +84,6 @@ export default {
     }
   }
 }
+
+
 </style>
