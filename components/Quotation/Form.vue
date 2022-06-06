@@ -4,6 +4,10 @@
     <p>Fill the form below. The quotation will be sent by mail or sms.</p>
     <form @submit.prevent="validateForm">
       <div class="form-group">
+        <label>BUSINESS NAME *</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="form-group">
         <label>BUSINESS EMAIL *</label>
         <input type="text" class="form-control" v-model="data.email" required>
         <p class="error" v-if="error.email">{{error.email}}</p>
@@ -12,6 +16,10 @@
         <label>BUSINESS TELEPHONE *</label>
         <input type="text" class="form-control" v-model="data.phone" required>
         <p class="error" v-if="error.phone">{{error.phone}}</p>
+      </div>
+      <div class="form-group">
+        <label>BUSINESS LOCATION *</label>
+        <input type="text" class="form-control" required>
       </div>
       <div class="form-group">
         <label>WHAT AREA ARE YOU MOST INTERESTED IN? *</label>
@@ -26,7 +34,7 @@
       </div>
       <div class="form-group">
         <label>TELL US MORE *</label>
-        <textarea class="form-control lg" required></textarea>
+        <textarea class="form-control lg" placeholder="This should include a rough estimate of the amount/quantity of the product you might need." required></textarea>
       </div>
       <div class="form-group QWDED">
         <input class="btn" type="submit" value="Submit" :disabled="loading">
