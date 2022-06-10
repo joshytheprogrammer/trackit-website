@@ -17,10 +17,10 @@
         <input type="text" class="form-control" v-model="data.phone" required>
         <p class="error" v-if="error.phone">{{error.phone}}</p>
       </div>
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label>BUSINESS LOCATION *</label>
         <input type="text" class="form-control" required>
-      </div>
+      </div> -->
       <div class="form-group">
         <label>WHAT AREA ARE YOU MOST INTERESTED IN? *</label>
         <select class="form-control" required>

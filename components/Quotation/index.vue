@@ -31,7 +31,7 @@ export default {
   }
 
   .image {
-    max-height: 900px;
+    max-height: 700px;
     
     img {
       width: 100%;

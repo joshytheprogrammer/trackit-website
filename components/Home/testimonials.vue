@@ -5,16 +5,16 @@
     </div>
     <div class="content">
       <div class="card">
-        <p class="testimony">"Every day, they strive to improve their service to the clients by developing the right blend of technology and creativity to make sure every job done is done as efficiently as possible."</p>
-        <p class="testifier">-Claurice Turner</p>
+        <p class="testimony">"Track IT is one of the most professional IT firms in Nigeria. It was a pleasure working with them."</p>
+        <p class="testifier">-F.Nadah</p>
       </div>
       <div class="card">
-        <p class="testimony">"Every day, they strive to improve their service to the clients by developing the right blend of technology and creativity to make sure every job done is done as efficiently as possible."</p>
-        <p class="testifier">-Claurice Turner</p>
+        <p class="testimony">"Track IT is a very innovative company with a great vision for future of Nigeria."</p>
+        <p class="testifier">-Ikenna Isiadinso</p>
       </div>
       <div class="card">
-        <p class="testimony">"Every day, they strive to improve their service to the clients by developing the right blend of technology and creativity to make sure every job done is done as efficiently as possible."</p>
-        <p class="testifier">-Claurice Turner</p>
+        <p class="testimony">"Track IT is the best software licensing company to work with and also the best company to get technology skills and certifications that will promote your tech career. The best place to learn is at Track IT."</p>
+        <p class="testifier">-Oluwatosin Ajayi</p>
       </div>
       <div class="card">
         <p class="testimony">"Every day, they strive to improve their service to the clients by developing the right blend of technology and creativity to make sure every job done is done as efficiently as possible."</p>
