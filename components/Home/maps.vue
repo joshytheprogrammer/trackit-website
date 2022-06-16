@@ -51,57 +51,61 @@ export default {
 
 <style lang="scss" scoped>
 .maps {
-  padding: 1rem;
+  margin: 72px 1rem;
 
-  ._header {
-    margin: 2rem 0;
-    
-    h2 {
-      font-weight: 400;
-      font-size: 36px;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 2rem 0;
   }
 
   .content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+
     .card {
       margin: 1rem 0;
-    }
-  }
 
-  &.wide {
-    .content {
-      .card {
-        margin: 2rem 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+      .map {
+        width: 100%;
+      }
 
-        @media screen and (max-width: 900px) {
-          display: block;
+      .info {
+        padding: 1rem 0;
+
+        h4 {
+          font-weight: 500;
+          padding: 0.9rem 0;
+        }
+
+        p {
+          padding: 0.5rem 0;
+
+          a {
+            color: $dark;
+          }
         }
       }
     }
   }
 
-  .map {
-    width: 100%;
+  @media screen and (max-width: 900px) {
+    .content {
+      width: 90%;
+      display: block; 
+    }
   }
 
-  .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-
-    h6 {
-      padding: 0.9rem 0;
-    }
-
-    p {
-      padding: 0.5rem 0;
-
-      a {
-        color: $dark;
-      }
+  @media screen and (max-width: 768px) {
+    .content {
+      width: 100%;
     }
   }
 }
