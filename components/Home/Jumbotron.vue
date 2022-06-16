@@ -27,6 +27,11 @@ export default {
   max-height: 800px;
   max-width: 100%;
 
+  background-image: url('https://images.unsplash.com/photo-1648737155328-0c0012cf2f20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80');
+  background-color: $dark;
+  padding-bottom: 2rem;
+  height: 600px;
+
   &.wide {
     background-image: url("https://images.unsplash.com/photo-1648737155328-0c0012cf2f20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80");
     background-attachment: fixed;
@@ -40,6 +45,7 @@ export default {
   align-items: center;
 
   .content {
+    color: $light;
     h1 {
       font-weight: 400;
     }
