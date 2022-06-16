@@ -75,6 +75,7 @@ export default {
   margin: 1rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 
   ._header {
@@ -86,14 +87,6 @@ export default {
     }
   }
 
-  // &.wide {
-  //   .content {
-  //     display: grid;
-  //     grid-template-columns: repeat(2, 1fr);
-  //     gap: 1rem;
-  //   }
-  // }
-
   .content {
     ._card {
       border: 1px solid $dark;
@@ -103,13 +96,13 @@ export default {
      
       margin: 1rem 0;
 
-      &.wide {
-        width: 50%;
+      // &.wide {
+      //   width: 50%;
         
-        @media screen and (max-width: 900px) {
-          width: 100%;
-        }
-      }
+      //   @media screen and (max-width: 900px) {
+      //     width: 100%;
+      //   }
+      // }
 
       ._question {
         display: flex;
