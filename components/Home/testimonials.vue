@@ -16,10 +16,6 @@
         <p class="testimony">"Track IT is the best software licensing company to work with and also the best company to get technology skills and certifications that will promote your tech career. The best place to learn is at Track IT."</p>
         <p class="testifier">-Oluwatosin Ajayi</p>
       </div>
-      <div class="card">
-        <p class="testimony">"Every day, they strive to improve their service to the clients by developing the right blend of technology and creativity to make sure every job done is done as efficiently as possible."</p>
-        <p class="testifier">-Claurice Turner</p>
-      </div>
     </div>
   </div>
 </template>
@@ -37,53 +33,51 @@ export default {
 
 <style lang="scss" scoped>
 .testimonials {
-  margin: 2rem 1rem;
+  margin: 72px 1rem;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-  &.wide {
-    .content {
-      display: grid;
-      gap: 12px;
-      grid-template-columns: repeat(3, 1fr);
-
-      @media screen and (max-width: 900px) {
-        grid-template-columns: repeat(2,1fr);
-      }
-
-      .card {
-        margin: 1rem 0;
-      }
-    }
-  }
-
-  ._header {
-    margin: 2rem 0;
-    
-    h2 {
-      font-weight: 400;
-      font-size: 36px;
-    }
+  h2 {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 2rem 0;
   }
 
   .content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+
     .card {
       margin: 2rem 0;
 
       .testimony {
-        text-align: left;
         font-size: 16px;
-        line-height: 2;
+        line-height: 1.85;
       }
 
       .testifier{
-        padding: 1rem 0;
+        font-size: 14px;
         font-weight: 500;
+        padding: 1rem 0;
       }
     }
   }
+
+  @media screen and (max-width: 900px) {
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 1rem 0;
+    }
+  }
+
+  @media screen and (max-width: 728px) {
+    .content {
+      display: block;
+    } 
+  }
 }
-
-
 </style>
