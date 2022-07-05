@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <hero-component />
-    <testimonials />
+    <Shop />
+    <testimonials /> 
     <Maps />
     <FAQ /> 
   </div>
@@ -9,6 +10,7 @@
 
 <script>
 import HeroComponent from "./Jumbotron.vue"
+import Shop from "./Shop.vue"
 import Testimonials from "./testimonials.vue"
 import FAQ from "./faq.vue"
 import Maps from "./maps.vue"
@@ -16,6 +18,7 @@ import Maps from "./maps.vue"
 export default {
   components: {
     HeroComponent,
+    Shop,
     Testimonials,
     FAQ,
     Maps
