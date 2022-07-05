@@ -1,11 +1,9 @@
 <template>
   <div class="jumbotron" :class="{'wide' : !mobile}">
     <div class="content" :class="{'wide' : !mobile}">
-      <h1>We are committed to helping you in every way</h1>
-      <p>We offer multiple solutions for Schools, Teachers, Students, Individuals, and much more. These solutions include but is not limited to, 
-        the Installation of Interactive Smart Board, the Installation of ICT labs in schools and businesses, Online and Offline Trainings on Technology Related Topics, Issuing of Several Microsoft Certifications and much more. If you are interested in any of these, click on the button below
-      </p>
-      <button :class="{'wide' : !mobile}" @click="$router.push('/quotation')">Get a Quote</button>
+      <h1>Welcome to the TRACKIT Official Website</h1>
+      <p>We offer multiple technology solutions and certifications such as, the Microsoft Certified Educator Certification (MCE), the Microsoft Office Specialist Certification and much more. Our most popular course is the MCE certification.</p>
+      <button :class="{'wide' : !mobile}" @click="$router.push('/quotation?interest=mce')">Appy for it Now</button>
     </div>
   </div>
 </template>
@@ -50,7 +48,7 @@ export default {
     color: $light;
 
     h1 {
-      font-weight: 400;
+      font-weight: 500;
     }
 
     h1, p {
@@ -69,13 +67,13 @@ export default {
       }
 
       h1 {
-        font-size: 36px;
+        font-size: 48px;
         font-weight: 400;
         line-height: 1.35;
       }
 
       p {
-        font-size: 14px;
+        font-size: 20px;
         line-height: 1.95;
       }
 
