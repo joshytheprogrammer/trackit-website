@@ -42,10 +42,13 @@ export default {
   }
 
   display: flex;
+  text-align: center;
+  justify-content: center;
   align-items: center;
 
   .content {
     color: $light;
+
     h1 {
       font-weight: 400;
     }
@@ -56,6 +59,7 @@ export default {
     
     &.wide {
       display: flex;
+      justify-content: center;
       flex-direction: column;
       color: $light;
       width: 50%;
@@ -80,6 +84,7 @@ export default {
   }
 
   button {
+    display: block;
     background: $primary;
     color: $light;
     border: none;
@@ -89,7 +94,7 @@ export default {
     height: fit-content;
     width: fit-content;
     padding: 8px 12px;
-    margin: 1rem 0;
+    margin: 1rem auto;
     cursor: pointer;
     transition: background .2s ease-in-out, color .2s linear;
 
