@@ -12,7 +12,7 @@
       <p><a href="mailto:info@trackit.com.ng">info@trackit.com.ng</a></p>
     </div>
     <div class="attribution">
-      <h3>Track IT Nigeria Limited</h3>
+      <h3>Track IT Limited</h3>
       <p>This website was created by <a href="https://www.joshytheprogrammer.com">joshytheprogrammer</a></p>
       <p>© 2022 TRACK I.T. Limited. All Rights Reserved.</p>
     </div>

@@ -77,6 +77,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   ._header {
     margin: 0.5rem 0;
@@ -96,21 +97,15 @@ export default {
      
       margin: 1rem 0;
 
-      // &.wide {
-      //   width: 50%;
-        
-      //   @media screen and (max-width: 900px) {
-      //     width: 100%;
-      //   }
-      // }
-
       ._question {
         display: flex;
         justify-content: space-between;
+        
 
         span {
           font-size: 16px;
           font-weight: 400;
+          text-align: center;
         }
 
         ._sign {
