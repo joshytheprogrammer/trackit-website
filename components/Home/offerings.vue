@@ -101,7 +101,8 @@ export default {
         }
       }
     }
-
+  }
+  
   @media screen and (max-width: 900px) {
     .products {
       grid-template-columns: repeat(2, 1fr);
@@ -127,7 +128,6 @@ export default {
       padding: 1rem 0;
     }
 
-  }
   }
 }
 </style>
