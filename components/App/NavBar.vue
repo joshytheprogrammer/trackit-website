@@ -2,7 +2,7 @@
   <nav :class="{ active: isOpen }">
     <div class="navItems">
       <div class="logo">
-        <Nuxt-Link to="/"><img src="../../assets/img/trackit_logo.jpeg" alt="Track I.T. Logo"></Nuxt-Link>
+        <Nuxt-Link to="/"><img src="../../assets/img/logo.jpg" alt="Track I.T. Logo"></Nuxt-Link>
       </div>
       <!-- If the screen is small show MenuIcon -->
       <div class="menuIcon" v-if="mobile">
@@ -63,7 +63,7 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-  height: 84px;
+  height: 90px;
   width: 100%;
   overflow-y: hidden;
   padding: 14px 8px;
@@ -78,13 +78,14 @@ nav {
   .navItems {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
     .logo {
       width: 72px;
       
       img {
         width: 100%;
-        height: 48px;
+        height: 70px;
       }
     }
 

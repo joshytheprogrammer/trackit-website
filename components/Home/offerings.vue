@@ -22,13 +22,13 @@ export default {
       offerings: [
         {
           id: 0,
-          imgLink: '_nuxt/assets/img/SMART.jpg',
+          imgLink: '../../assets/img/SMART.jpg',
           name: 'Interactive Smart Board',
           link: '/offerings/smartboard'
         },
         {
           id: 1,
-          imgLink: '_nuxt/assets/img/m-c-e.svg',
+          imgLink: '../../assets/img/m-c-e.svg',
           name: 'Microsoft Certified Educator',
           link: '/offerings/mce'
         },
