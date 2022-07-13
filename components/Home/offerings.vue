@@ -102,9 +102,9 @@ export default {
       }
     }
   }
-  
+
   @media screen and (max-width: 900px) {
-    .products {
+    .offer {
       grid-template-columns: repeat(2, 1fr);
       margin: 1rem 0;
     }
@@ -114,7 +114,7 @@ export default {
     padding: 1rem;
     display: block;
 
-    .products {
+    .offer {
       display: block;
       
       .card {
