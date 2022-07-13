@@ -22,20 +22,20 @@ export default {
       offerings: [
         {
           id: 0,
-          imgLink: 'comming soon',
+          imgLink: '_nuxt/assets/img/SMART.jpg',
           name: 'Interactive Smart Board',
           link: '#'
         },
         {
           id: 1,
-          imgLink: 'coming soon',
+          imgLink: '_nuxt/assets/img/m-c-e.svg',
           name: 'Microsoft Certified Educator',
           link: '#'
         },
         {
           id: 2,
           imgLink: 'coming soon',
-          name: 'Programming Courses',
+          name: 'Programming Courses (coming soon)',
           link: '#'
         },
       ]
