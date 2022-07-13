@@ -22,7 +22,7 @@ export default {
       offerings: [
         {
           id: 0,
-          imgLink: 'https://imgs.search.brave.com/zSyqvZy7kmk5dttWqpBeG4vV1UvpfgyuEl5mzDKIIJk/rs:fit:1024:768:1/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vaXdoL2ltYWdl/L3VwbG9hZC9xX2F1/dG8sZ19jZW50ZXIv/d18xMDI0LGhfNzY4/LGNfcGFkL2Fzc2V0/cy8xLzI2LzEyOTU2/MDM2ODNwcmRfNjAw/aV9zZXJpZS0yLTEu/anBn',
+          imgLink: 'https://imgs.search.brave.com/g0tnrYlMOjJffhs_zi0UoRyPgoTpuuZZxR_x0kTtRDM/rs:fit:542:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/M01zREJaamZxVllY/WkVvYko4NTRRSGFH/ZSZwaWQ9QXBp',
           name: 'Interactive Smart Board',
           link: '/offerings/smartboard'
         },
