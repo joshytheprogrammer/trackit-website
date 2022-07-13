@@ -1,8 +1,9 @@
 <template>
   <div class="jumbotron" :class="{'wide' : !mobile}">
     <div class="content" :class="{'wide' : !mobile}">
-      <h1>Welcome to the TRACKIT Official Website</h1>
-      <p>We offer multiple technology solutions and certifications such as, the Microsoft Certified Educator Certification (MCE), the Microsoft Office Specialist Certification and much more. Our most popular course is the MCE certification.</p>
+      <h1>Welcome to the Official TRACKIT Website</h1>
+      <!-- <p>We offer multiple technology solutions and certifications such as, the Microsoft Certified Educator Certification (MCE), the Microsoft Office Specialist Certification and much more. Our most popular course is the MCE certification.</p> -->
+      <p>We set people on right I.T. track to enable them find purpose.</p>
       <button :class="{'wide' : !mobile}" @click="$router.push('/quotation?interest=mce')">Appy for it Now</button>
     </div>
   </div>
