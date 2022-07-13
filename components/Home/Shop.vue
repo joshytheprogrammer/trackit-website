@@ -37,7 +37,7 @@ export default {
           imgLink: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1657046428/trackit/micorsoft_office_365_trackit_jdqyfg.jpg',
           alt: 'image_of_microsoft office 365',
           name: 'Microsoft 365 Business Standard (1 Person) (12-Month Subscription) - Android, Apple iOS, Chrome, Mac OS, Windows [Digital]'
-        }
+        },
       ]
     }
   }
