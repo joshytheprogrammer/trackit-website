@@ -34,7 +34,7 @@ export default {
         },
         {
           id: 2,
-          imgLink: 'coming soon',
+          imgLink: 'https://imgs.search.brave.com/TUTT8KbZa_De-o_IH1ZdN6T2w5Dco7WQCreTbOiA2is/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuc2tpbGxzaGFy/ZS5jb20vdXBsb2Fk/cy92aWRlby90aHVt/Ym5haWxzLzhjNGFh/ZmIxYzQzNDk4NGU2/MjNkZTRhOTE3ZTY3/NmFiL29yaWdpbmFs',
           name: 'Programming Courses (coming soon)',
           link: '#'
         },

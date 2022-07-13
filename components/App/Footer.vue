@@ -8,7 +8,7 @@
     <div class="contacts">
       <h3>Contacts</h3>
       <p>+234 802 317 8729</p>
-      <p>+234 901 563 0453</p>
+      <p>+234 813 117 7733</p>
       <p><a href="mailto:info@trackit.com.ng">info@trackit.com.ng</a></p>
     </div>
     <div class="attribution">

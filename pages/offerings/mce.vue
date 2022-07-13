@@ -44,9 +44,6 @@ export default {
   border-radius: 12px;
   box-shadow: -1px -1px 2px 0px $dark;
 
-    /* width */
-  
-
   .header {
     display: flex;
     justify-content: space-between;
