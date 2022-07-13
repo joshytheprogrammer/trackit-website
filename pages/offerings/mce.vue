@@ -1,7 +1,7 @@
 <template>
   <div class="mce">
     <div class="header">
-      <h1>The Microsoft Certified Educator Program</h1>
+      <h1>Microsoft Certified Educator Program</h1>
       <img src="../../assets/img/microsoft-logo.png" alt="microsoft logo on mce page">
     </div>
     <div class="details">
@@ -42,7 +42,10 @@ export default {
   width: 80%;
   margin: 2rem auto;
   border-radius: 12px;
-  box-shadow: 2px 2px 2px 2px $dark;
+  box-shadow: -1px -1px 2px 0px $dark;
+
+    /* width */
+  
 
   .header {
     display: flex;
@@ -62,6 +65,8 @@ export default {
 
   .details {
     padding: 1rem;
+    height: 500px;
+    overflow-y: auto;
 
     p {
       font-size: 1.1rem;
@@ -69,6 +74,30 @@ export default {
 
       ul {
         padding: 0.5rem 1.5rem;
+      }
+
+      b {
+        font-weight: 500;
+      }
+    }
+  }
+
+  @media screen and (max-width: 728px) {
+    width: 90%;
+    margin: 1rem auto;
+    display: block;
+    box-shadow: none;
+    border: 1px solid $dark;
+
+    .header {
+      display: block;
+
+      img {
+        display: none;
+      }
+      
+      h1 {
+        font-size: 24px;
       }
     }
   }
