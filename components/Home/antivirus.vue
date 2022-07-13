@@ -8,7 +8,7 @@
         </div>
         <div class="_details">
           <span class="name"> {{item.name}} </span>
-          <a :href="item.link">Learn More</a>
+          <a :href="item.link">Shop Now</a>
         </div>
       </div>
     </div>
