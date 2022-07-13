@@ -77,7 +77,6 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 
   ._header {
     margin: 0.5rem 0;
@@ -94,6 +93,11 @@ export default {
       border-radius: 4px;
       padding: 0.5rem;
       background: $grey;
+      width: 700px;
+
+      @media screen and (max-width: 728px) {
+        width: 100%;
+      }
      
       margin: 1rem 0;
 
@@ -105,7 +109,6 @@ export default {
         span {
           font-size: 16px;
           font-weight: 400;
-          text-align: center;
         }
 
         ._sign {
@@ -130,6 +133,7 @@ export default {
         }
       }
     }
+    
   }
 }
 </style>
