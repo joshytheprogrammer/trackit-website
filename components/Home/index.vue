@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <hero-component />
-    <Antivirus />
     <Shop />
+    <Antivirus />
     <Offerings />
     <!-- <testimonials />  -->
     <Maps />

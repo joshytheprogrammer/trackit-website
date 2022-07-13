@@ -4,7 +4,7 @@
       <h1>We set people on right I.T. track to enable them find purpose.</h1>
       <!-- <p>We offer multiple technology solutions and certifications such as, the Microsoft Certified Educator Certification (MCE), the Microsoft Office Specialist Certification and much more. Our most popular course is the MCE certification.</p> -->
       <!-- <p></p> -->
-      <button :class="{'wide' : !mobile}" @click="$router.push('/quotation?interest=mce')">Appy for it Now</button>
+      <a :class="{'wide' : !mobile}" href="#shop">Appy for it Now</a>
     </div>
   </div>
 </template>
@@ -82,13 +82,14 @@ export default {
     }
   }
 
-  button {
+  a {
     display: block;
     background: $primary;
     color: $light;
     border: none;
     font-size: 16px;
     font-weight: 400;
+    text-decoration: none;
     border-radius: 4px;
     height: fit-content;
     width: fit-content;
