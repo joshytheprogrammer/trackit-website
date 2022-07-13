@@ -8,7 +8,7 @@
         </div>
         <div class="_details">
           <span class="name"> {{item.name}} </span>
-          <NuxtLink :to="item.link">Learn More</NuxtLink>
+          <a :href="item.link">Learn More</a>
         </div>
       </div>
     </div>
@@ -22,21 +22,21 @@ export default {
       antivirus: [
         {
           id: 0,
-          imgLink: '',
-          name: '',
-          link: ''
+          imgLink: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1657718658/trackit/antivirus_3_n56gct.jpg',
+          name: 'Norton - 360 Deluxe (3-Device) (1-Year Subscription with Auto Renewal) - [Digital]',
+          link: 'tel:+2348023178729'
         },
         {
           id: 1,
-          imgLink: '',
-          name: '',
-          link: ''
+          imgLink: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1657718658/trackit/antivirus_1_acdbn8.jpg',
+          name: 'ESET - Smart Security® Premium (1-Device) (1-Year Subscription)',
+          link: 'tel:+2348023178729'
         },
         {
           id: 2,
-          imgLink: '',
-          name: '',
-          link: ''
+          imgLink: 'https://res.cloudinary.com/dsgvwxygr/image/upload/v1657718660/trackit/antivirus_2_nr0fwn.jpg',
+          name: 'McAfee - AntiVirus (1 Device) (1-Year Subscription) - Windows [Digital]',
+          link: 'tel:+2348023178729'
         }
       ]
     }
