@@ -4,7 +4,7 @@
     <Antivirus />
     <Shop />
     <Offerings />
-    <testimonials /> 
+    <!-- <testimonials />  -->
     <Maps />
     <FAQ /> 
   </div>
