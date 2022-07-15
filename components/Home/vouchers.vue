@@ -28,8 +28,8 @@ export default {
         },
         {
           id: 1,
-          imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/certification-exam.svg',
-          name: 'Exam 70-480: Programming in HTML5 with JavaScript and CSS3',
+          imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg',
+          name: 'Microsoft Certified Educator',
           to: "https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+your+one+of+your+vouchers"
         },
         {

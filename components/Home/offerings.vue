@@ -28,9 +28,9 @@ export default {
         },
         {
           id: 1,
-          imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg',
-          name: 'Microsoft Certified Educator',
-          link: '/offerings/mce'
+          imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/certification-exam.svg',
+          name: 'Exam 70-480: Programming in HTML5 with JavaScript and CSS3',
+          link: '#'
         },
         {
           id: 2,
