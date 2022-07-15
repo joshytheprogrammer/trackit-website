@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <hero-component />
+    <Vouchers />
     <Shop />
     <Antivirus />
     <Offerings />
@@ -13,6 +14,7 @@
 <script>
 import HeroComponent from "./Jumbotron.vue"
 import Antivirus from "./antivirus.vue"
+import Vouchers from "./vouchers.vue"
 import Shop from "./Shop.vue"
 import Offerings from "./offerings.vue"
 import Testimonials from "./testimonials.vue"
@@ -24,6 +26,7 @@ export default {
     HeroComponent,
     Antivirus,
     Shop,
+    Vouchers,
     Offerings,
     Testimonials,
     FAQ,
