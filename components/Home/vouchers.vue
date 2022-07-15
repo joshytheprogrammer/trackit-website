@@ -8,7 +8,7 @@
         </div>
         <div class="_details">
           <span class="name"> {{item.name}} </span>
-          <a href="tel:+2348023178729">Book Now</a>
+          <a :href="item.to">Book Now</a>
         </div>
       </div>
     </div>
@@ -24,16 +24,19 @@ export default {
           id: 0,
           imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/certification-exam.svg',
           name: 'Exam MS-900: Microsoft 365 Fundamentals',
+          to: "https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+your+one+of+your+vouchers"
         },
         {
           id: 1,
           imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/certification-exam.svg',
           name: 'Exam 70-480: Programming in HTML5 with JavaScript and CSS3',
+          to: "https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+your+one+of+your+vouchers"
         },
         {
           id: 2,
           imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg',
           name: 'Microsoft Certified: Power Platform Fundamentals',
+          to: "https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+your+one+of+your+vouchers"
         },
         
       ]
