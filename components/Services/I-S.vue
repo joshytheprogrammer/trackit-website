@@ -6,7 +6,7 @@
     <div class="_details">
       <h2>The Interactive Smartboard</h2>
       <p>Track I.T installs Smart Boards in schools and businesses. We use the most efficient and cost effective methods of Installation to ensure that the boards last as long as possible while also serving its purpose. We have installed over a hundred Smartboard in schools and offices all around Nigeria.</p>
-      <button @click="$router.push('/quotation?interest=isb')">Order Now</button>
+      <a href="https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+the+interactive+smart+board">Whatsapp to order</a>
     </div>
   </div>
 </template>
@@ -55,13 +55,14 @@ export default {
     }
   }
 
-  button {
+  a {
     background: $primary;
     color: $light;
     border: none;
     font-size: 16px;
     font-weight: 400;
     border-radius: 4px;
+    text-decoration: none;
     height: fit-content;
     width: fit-content;
     padding: 8px 12px;

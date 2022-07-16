@@ -6,7 +6,8 @@
     <div class="_details">
       <h2>ICT Lab Installation</h2>
       <p>We install medium to large scale computer components in schools, workplaces, hospitals, etc. The methods we use to install computers and its components maximize its productivity and stability. Our computer labs function effectively and cost efficiently.</p>
-      <button @click="$router.push('/quotation?interest=ict-l')">Order Now</button>
+      <a href="https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+the+ct+lab+installation">Whatsapp to order</a>
+      <!-- <button @click="$router.push('/quotation?interest=ict-l')">Order Now</button> -->
     </div>
   </div>
 </template>
@@ -60,12 +61,13 @@ export default {
       font-size: 14px;
     }
 
-    button {
+    a {
       background: $primary;
       color: $light;
       border: none;
       font-size: 16px;
       font-weight: 400;
+      text-decoration: none;
       border-radius: 4px;
       height: fit-content;
       width: fit-content;

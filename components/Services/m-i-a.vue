@@ -3,7 +3,7 @@
     <div class="_details">
       <h2>Microsoft Imagine Academy</h2>
       <p>Providing the technology skills and certifications students need to succeed. Microsoft Imagine Academy gives students and educators the curricula and certifications they need to succeed in a technology-driven economy. Prepare students for college and careers with on-demand, industry-recognized courses and certifications in IT, computer science, productivity, and more. TRACK I.T. is a certified partner of Microsoft. When you finish a course with us, you get a Microsoft Certified Certificate. Come, let’s learn.</p>
-      <button @click="$router.push('/quotation?interest=mia')">Subscribe</button>
+      <a href="https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+the+microsoft+imagine+academy">Whatsapp to order</a>
     </div>
     <div class="_image" :class="{'wide' : !mobile}">
       <img src="../../assets/img/m-i-m.png" alt="ICT Lab">
@@ -68,7 +68,7 @@ export default {
       font-size: 14px;
     }
 
-    button {
+    a {
       background: $primary;
       color: $light;
       border: none;
@@ -76,6 +76,7 @@ export default {
       font-weight: 400;
       border-radius: 4px;
       height: fit-content;
+      text-decoration: none;
       width: fit-content;
       padding: 8px 12px;
       margin: 1rem 0;
