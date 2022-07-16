@@ -28,13 +28,13 @@ export default {
         },
         {
           id: 1,
-          imgLink: '../../assets/img/ict-lab.jpg',
+          imgLink: 'https://imgs.search.brave.com/IMNk4aJFLgIiHmeIog4r-ZavgpP7pKCKyKfDNR7iwCs/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pMi53/cC5jb20vdGVjaG1v/cmFuLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxMy8xMS9D/b21wdXRlci1MYWIu/anBnP2ZpdD0zODcy/JTJDMjU5MiZzc2w9/MQ',
           name: 'ICT Lab',
           link: '/services/#ict-lab'
         },
         {
           id: 2,
-          imgLink: '../../assets/img/m-i-m.png',
+          imgLink: 'https://forrit-cms-msedu-web-consumables.azureedge.net/media/8806824e-543b-48ba-8567-aeaef11f67dc/1920-Panel1-FeatureHeader-Academy.jpg',
           name: 'Microsoft Imagine Academy',
           link: '/services/#mia'
         },
