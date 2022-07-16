@@ -6,7 +6,7 @@
     <div class="_details">
       <h2>ICT Lab Installation</h2>
       <p>We install medium to large scale computer components in schools, workplaces, hospitals, etc. The methods we use to install computers and its components maximize its productivity and stability. Our computer labs function effectively and cost efficiently.</p>
-      <a href="https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+the+ct+lab+installation">Whatsapp to order</a>
+      <a href="https://api.whatsapp.com/send?phone=2348023178729&text=Hi+there.+I'm+interested+in+the+ict+lab+installation">Whatsapp to order</a>
       <!-- <button @click="$router.push('/quotation?interest=ict-l')">Order Now</button> -->
     </div>
   </div>
