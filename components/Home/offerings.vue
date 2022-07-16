@@ -35,8 +35,8 @@ export default {
         {
           id: 2,
           imgLink: '../../assets/img/m-i-m.png',
-          name: 'Programming Courses (AppAcad)',
-          link: '#'
+          name: 'Microsoft Imagine Academy',
+          link: '/services/#mia'
         },
       ]
     }

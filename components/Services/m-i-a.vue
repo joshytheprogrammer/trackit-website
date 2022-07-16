@@ -1,5 +1,5 @@
 <template>
-  <div class="mia" :class="{'wide' : !mobile}">
+  <div class="mia" :class="{'wide' : !mobile}" id="mia">
     <div class="_details">
       <h2>Microsoft Imagine Academy</h2>
       <p>Providing the technology skills and certifications students need to succeed. Microsoft Imagine Academy gives students and educators the curricula and certifications they need to succeed in a technology-driven economy. Prepare students for college and careers with on-demand, industry-recognized courses and certifications in IT, computer science, productivity, and more. TRACK I.T. is a certified partner of Microsoft. When you finish a course with us, you get a Microsoft Certified Certificate. Come, let’s learn.</p>
