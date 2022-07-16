@@ -1,5 +1,5 @@
 <template>
-  <div class="ict-lab" :class="{'wide' : !mobile}">
+  <div class="ict-lab" :class="{'wide' : !mobile}" id="ict-lab">
     <div class="_image">
       <img src="../../assets/img/ict-lab.jpg" alt="ICT Lab">
     </div>

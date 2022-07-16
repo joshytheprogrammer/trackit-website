@@ -28,13 +28,13 @@ export default {
         },
         {
           id: 1,
-          imgLink: 'https://docs.microsoft.com/en-us/media/learn/certification/badges/certification-exam.svg',
-          name: 'Exam 70-480: Programming in HTML5 with JavaScript and CSS3',
-          link: '#'
+          imgLink: '../../assets/img/ict-lab.jpg',
+          name: 'ICT Lab',
+          link: '/services/#ict-lab'
         },
         {
           id: 2,
-          imgLink: 'https://imgs.search.brave.com/TUTT8KbZa_De-o_IH1ZdN6T2w5Dco7WQCreTbOiA2is/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuc2tpbGxzaGFy/ZS5jb20vdXBsb2Fk/cy92aWRlby90aHVt/Ym5haWxzLzhjNGFh/ZmIxYzQzNDk4NGU2/MjNkZTRhOTE3ZTY3/NmFiL29yaWdpbmFs',
+          imgLink: '../../assets/img/m-i-m.png',
           name: 'Programming Courses (AppAcad)',
           link: '#'
         },
