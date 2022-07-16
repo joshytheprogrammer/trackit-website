@@ -24,7 +24,7 @@ export default {
           id: 0,
           imgLink: 'https://imgs.search.brave.com/g0tnrYlMOjJffhs_zi0UoRyPgoTpuuZZxR_x0kTtRDM/rs:fit:542:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/M01zREJaamZxVllY/WkVvYko4NTRRSGFH/ZSZwaWQ9QXBp',
           name: 'Interactive Smart Board',
-          link: '/offerings/smartboard'
+          link: '/services/#isb'
         },
         {
           id: 1,

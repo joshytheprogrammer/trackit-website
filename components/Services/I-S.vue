@@ -1,5 +1,5 @@
 <template>
-  <div class="board-component" :class="{'wide' : !mobile}">
+  <div class="board-component" :class="{'wide' : !mobile}" id="isb">
     <div class="_image">
       <img src="../../assets/img/SMART.jpg" alt="The Interactive Smart Board">
     </div>
